@@ -2,6 +2,7 @@
   --swiper-theme-color: #1946ba;
 }
 .header {
+  position: relative;
   padding-top: 31px;
   padding-bottom: 35px;
 }
@@ -117,12 +118,13 @@ ul li {
   margin-left: -5px;
   position: absolute;
   right: 51%;
-  top: 8%;
+  top: 7%;
   z-index: 100;
   pointer-events: none;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  font-family: 'Geometria';
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -132,5 +134,26 @@ ul li {
 
 .description {
   position: relative;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  right: 22px;
+  top: 53px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 50;
+  width: 18px;
+  height: 12px;
+}
+
+.hamburger-span {
+  display: block;
+  height: 2.31px;
+  width: 100%;
+  background-color: #333;
+  margin-bottom: 4.54px;
+  transition: all 0.5s;
 }
 

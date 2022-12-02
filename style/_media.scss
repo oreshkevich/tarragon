@@ -1,6 +1,214 @@
-@media (max-width: 1439px) {
-  .container {
-    max-width: 1054px;
+@media (max-width: 1281px) {
+  .swiper-menu {
+    width: 29%;
+    right: vw(-509);
+    top: vw(185);
+  }
+}
+@media (max-width: 1254px) {
+  .counter-two {
+    right: 53%;
+    top: 7%;
+  }
+  .description__title {
+    font-size: 64px;
+  }
+  .description__swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    width: 74%;
+    height: 4px;
+    left: -96px;
+    top: 43px;
+    margin-left: 134px;
+  }
+}
+@media (max-width: 1154px) {
+  .nav__menu {
+    display: none;
+  }
+  .header__phone-wrap {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    right: 18px;
+    top: 46px;
+  }
+  .hamburger-span {
+    height: 0.31px;
+  }
+  .description {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      'one'
+      'two';
+  }
+  .description__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description__wrapper_item {
+    max-width: 600px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .counter-two {
+    right: 79%;
+    top: 48%;
+  }
+  .description__swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    width: 58%;
+    height: 4px;
+    left: -96px;
+    top: 43px;
+    margin-left: 26%;
+  }
+  .description__slider-button {
+    position: absolute;
+    left: 440px;
+    top: 23px;
+    z-index: 20;
+  }
+  .swiper-horizontal > .swiper-pagination-progressbar,
+  .swiper-pagination-progressbar.swiper-pagination-horizontal,
+  .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+  .swiper-vertical
+    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 71%;
+    height: 5px;
+    left: 241px;
+    top: 550px;
+  }
+}
+
+@media (max-width: 882px) {
+  .counter-two {
+    right: 90%;
+    top: 48%;
+  }
+  .promo-title {
+    padding-bottom: 312px;
+    max-width: 425px;
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 684px) {
+  .counter-two {
+    right: 90%;
+    top: 48%;
+  }
+}
+@media (max-width: 598px) {
+  .discount__wrapper_opacity {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .header__logo {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .promo-title {
+    padding-top: 22px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .header__logo {
+    margin-left: -11px;
+  }
+  .swiper-menu {
+    width: 31%;
+    right: vw(-509);
+    top: vw(1200);
+  }
+  .swiper-menu .dot {
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+  }
+  .counter {
+    right: 90%;
+    top: 39%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .promo__wrapper {
+    background-position: 78% 98%;
+    background-size: 151%;
+  }
+  .swiper-horizontal > .swiper-pagination-progressbar,
+  .swiper-pagination-progressbar.swiper-pagination-horizontal,
+  .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+  .swiper-vertical
+    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 107%;
+    height: 5px;
+    left: 29px;
+    top: 444px;
+  }
+  .description__title {
+    font-size: 30px;
+    line-height: 41px;
+    padding-bottom: 19px;
+  }
+  .description__wrapper_item {
+    max-width: 291px;
+  }
+  .description {
+    margin-top: 104px;
+  }
+  .description__text {
+    max-width: 302px;
+  }
+  .description__wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .description__slider-button {
+    left: 172px;
+    top: 23px;
+  }
+  .description__swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    width: 43%;
+    height: 4px;
+    left: -34px;
+    top: 43px;
+    margin-left: 26%;
+  }
+  .description__slider-next {
+    margin-right: 16px;
+    margin-left: 9px;
+  }
+  .counter-two {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .counter-two {
+    font-weight: 400;
+    right: 94%;
+    top: 52%;
+  }
+  .discount {
+    padding-top: 42px;
+  }
+  .discount__wrapper p {
+    text-align: start;
+  }
+  .discount__wrapper {
+    padding: 30px 17px 38px 18px;
+  }
+  .promo-title {
+    max-width: 300px;
+  }
+  .promo__wrapper {
+    background: url(../img/img-2.jpg) no-repeat;
+    background-position: 51% 100%;
   }
 }
 

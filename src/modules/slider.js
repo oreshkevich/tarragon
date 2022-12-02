@@ -16,10 +16,10 @@ const slider = () => {
       onlyInViewport: true,
       pageUpDown: true,
     },
-    // autoplay: {
-    //   delay: 2500,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     speed: 800,
     pagination: {
       el: '.swiper-pagination',

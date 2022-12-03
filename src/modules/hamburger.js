@@ -6,7 +6,6 @@ const hamburger = () => {
   hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('hamburger-active');
     navActive.classList.toggle('vigorous');
-    // headerPhoneWrap.classList.toggle('vigorous');
   });
 };
 

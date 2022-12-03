@@ -9,4 +9,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'eval-source-map',
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
 };
+
